@@ -1,0 +1,81 @@
+body{
+  margin:0px;
+}
+
+
+.nepe:hover{
+  cursor: pointer;
+}
+#tabla{margin-top: -290px;}
+.rojo:hover{
+  cursor: no-drop;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin-left: 340px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAFd0;
+  border-radius: 5px;
+}
+.form{
+  width: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;}
+#oculto{
+  margin-top: 10px;
+	position: relative;
+	background: #ffffff;
+	border: 4px solid #a7a4ab;
+  text-align: center;
+  	width: 250px;
+}
+#oculto:after, #oculto:before {
+	bottom: 100%;
+	left: 13px;;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#oculto:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #ffffff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+#oculto:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #a7a4ab;
+	border-width: 16px;
+	margin-left: -16px;
+}
