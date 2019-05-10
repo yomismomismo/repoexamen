@@ -24,8 +24,6 @@ if (isNaN(precio_hora)) {
   document.getElementById('hidden4').style.display = 'block';
   error=false
 }
-if (error==false) {
-  return false;
-}
+
 
 }
